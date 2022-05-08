@@ -73,7 +73,7 @@ main {
     background-position: center;
     background-blend-mode: soft-light;
     min-height: 30vh;
-    color: var(--light);
+    color: white;
     padding: 2% 6%;
     display: flex;
     justify-content: flex-end;
@@ -86,8 +86,8 @@ main {
 }
 
 .banner h2 {
-    background-color: var(--secondary);
-    color: var(--tertiary);
+    background-color: #72A0C1;
+    color: white;
     margin: 0;
     padding: 5px 10px;
     font-size: 2.3rem;
@@ -115,7 +115,7 @@ main {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
-    border-right: 4px solid var(--primary);
+    border-right: 4px solid white;
     font-size: 4vw;
     line-height: 1.1;
 }
@@ -147,8 +147,8 @@ main {
     margin: 0.5em;
     text-decoration: none;
     background-blend-mode: soft-light;
-    background-size: 10%;
-    background-repeat: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
     transition: all 0.5s;
     font-size: 0.9rem;
 }
@@ -193,25 +193,30 @@ main {
 }
 
 .webdev {
+    background-size: 800px 200px;
     background-image: url("./webdevstockphoto.jpg");
 }
 
 .stylinggallery {
     border-color: #72A0C1;
+    background-size: 800px 200px;
     background-image: url("./stockphoto1.jpg");
 }
 
 .portfolio {
     border-color: #72A0C1;
+    background-size: 800px 200px;
     background-image: url("./stockphoto2.jpg");
 }
 
 .webstructure {
     border-color: #72A0C1;
+    background-size: 800px 200px;
     background-image: url("./stockphoto3.jpg");
 }
 
 .projects {
+    background-size: 1600px 400px;
     background-image: url("./stockphoto4.jpg");
 }
 
